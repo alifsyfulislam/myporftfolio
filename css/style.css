@@ -1,0 +1,1012 @@
+*{ box-sizing: border-box}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: lavender;
+}
+
+.wrapper{
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+
+.col-1{width: 8.33%}
+.col-2{width: 16.66%}
+.col-3{width: 25%}
+.col-4{width: 33.33%}
+.col-5{width: 41.66%}
+.col-6{width: 50%}
+.col-7{width: 58.33%}
+.col-8{width: 66.66%}
+.col-9{width: 75%}
+.col-10{width: 83.33%}
+.col-11{width: 91.66%}
+.col-12{width: 100%}
+
+[class*='col-']{
+    /*border: 1px solid;*/
+    float: left;
+}
+
+row:after{
+    content: ' ';
+    clear: both;
+    display: block;
+}
+
+
+/*------------------------*/
+.header-height{height: 200px;}
+.menu-height{height: 50px;}
+.content-height{background-color: #2098D1;}
+.big-footer-height{height: 300px;}
+.footer-height{height: 50px;}
+
+
+
+/*---------------------------------*/
+.header-left{
+    background-color: #2098D1;
+    height: 100%;
+    width: 100%;
+    float: left;
+}
+
+
+.header-top{
+    margin: 0px;
+    color: white;
+    padding: 40px 0px 0px 0px;
+    font-size: 20px;
+}
+
+.para-1{
+    margin: 0px;
+    color: white;
+    float: left;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.dev-icon{
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin: 20px 10px 0px 0px;
+}
+
+
+/*------------------------------------*/
+
+.menu{
+    background-color: lightslategrey;
+    height: 50px;
+    width: 100%;
+    position: relative;
+}
+
+.menu-ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.menu-li{
+    float: left;
+    width: 20%;
+    text-align: center;
+    color: white;
+}
+
+.menu-li-a{
+    text-decoration: none;
+    display: block;
+    height: 50px;
+    color: white;
+    padding-top: 15px;
+}
+
+.menu-li-a:hover{
+    box-shadow: 0px 0px 5px 3px;
+}
+
+.menu2{
+    display: none;
+}
+
+
+.about-ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    position: relative;
+}
+
+.about-li{
+    text-align: center;
+    color: white;
+}
+
+.about-li-a{
+    text-decoration: none;
+    display: none;
+    height: 50px;
+    color: white;
+    padding-top: 15px;
+    background-color: lightslategrey;
+    border: 1px solid white;
+}
+
+.about-li:hover{
+    box-shadow: 0px 0px 5px 3px;
+}
+
+.menu-li:hover .about-li-a{
+    display: block;
+}
+
+
+
+/*---------------------*/
+.head-view-mg{
+    width: 100%;
+    height: 350px;
+}
+
+.content-mv-box{
+    margin: 4% 4% 2% 4%;
+    width: 42%;
+    height: 260px;
+    /*border: 1px solid;*/
+    float: left;
+    background-color: cadetblue;
+    box-shadow: 5px 5px 5px 0px #291444;
+    transition: 2s;
+}
+
+.content-mv-box:hover{
+    transform: scale(1.1);
+}
+
+
+.content-image-1st-row{
+    height: 50px;
+    width: 50px;
+    margin: 20px 0px 0px 8px;
+    float: left;
+}
+.content-header-top{
+    margin: 80px 0px 5px 8px;
+    padding: 0px;
+    color: black;
+}
+.para-2{
+    margin: 0px 0px 5px 13px;
+    padding: 0px;
+    color: white;
+    text-align: match-parent;
+}
+
+.content-mv-box2{
+    width: 88%;
+    margin: 5% 5% 5% 6%;
+    box-shadow: 5px 5px 5px 0px #291444;
+    background-color: cadetblue;
+    float: left;
+    transition: 2s;
+}
+
+.content-mv-box2:hover{
+    transform: scale(1.1);
+}
+
+.dream-ol{
+    color: white;
+}
+
+
+/*------------------------------------------*/
+.big-footer-content{
+    background-color: #33363B;
+    height: 100%;
+    width: 100%;
+    float: left;
+    /*border: 1px solid;*/
+}
+
+
+.big-foot-img{
+    height: 200px;
+    width: 70%;
+    margin: 5% 15% 5% 15%;
+}
+
+.bigfooter-header{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    text-align: center;
+}
+
+.big-footer-content-a{
+    text-decoration: none;
+}
+
+.big-footer-content-a h3:hover{
+    color: purple;
+}
+
+/*--------------------------*/
+.footer-height-top{
+    text-align: center;
+    padding-top: 15px;
+    background-color: #2098D1;
+    color: white;
+    height: 50px;
+}
+
+.para-3{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+
+/*--------------------About-css-----------------*/
+
+.about-div-1{
+    /*margin: 50px 0px 50px 150px;*/
+    margin: 5% 5% 5% 3%;
+    float: left;
+    height: 300px;
+    width: 35%;
+    /*border: 1px solid;*/
+}
+
+.about-div-1-img{
+    height: 300px;
+    width: 95%;
+    border-radius: 50%;
+    float: left;
+}
+
+.about-div-2{
+    width: 55%;
+    margin: 25% 0% 5% 0%;
+    float: left;
+    /*border: 1px solid;*/
+}
+
+.para-7{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+.about-div-3{
+    width: 100%;
+    padding: 2% 10%;
+    /*border: 1px solid;*/
+    float: left;
+}
+
+.life-header{
+    padding: 0px;
+    margin: 0px;
+    color: black;
+}
+
+.about-div-3-img{
+    padding: 2% 5%;
+}
+
+
+/*---------------------------------*/
+
+.about-menu-page{
+    height: 150px;
+    text-align: center;
+    background-color: #2098D1;
+    padding-top: 50px;
+    position: relative;
+    /*border: 1px solid white;*/
+}
+
+
+.about-menu-page:hover{
+    background-color: purple;
+}
+
+
+.about-menu-page-a{
+    text-decoration: none;
+    color: white;
+    /*text-align: center;*/
+    display: block;
+    font-size: 24px;
+    position: relative;
+}
+
+.about-menu-page-intro{
+    height: 300px;
+    width: 100%;
+    padding: 5% 10%;
+    display: block;
+    background-color: slategrey;
+    border: 1px solid;
+    float: left;
+}
+
+.about-h3{
+    padding: 0px;
+    margin: 0px;
+    color: black;
+    margin-bottom: 5px;
+}
+
+/*--------------------Portfolio---------------------*/
+
+.portfolio-body{
+    padding: 2% 5%;
+    width: 100%;
+    text-outline: white 1px;
+}
+
+.portfolio-top{
+    height: 200px;
+    width: 200px;
+    float: right;
+}
+
+.portfolio-top-img{
+    height: 200px;
+    width: 200px;
+    margin-left: -10px;
+    margin-top: 10px;
+}
+
+.port-table{
+    width: 780px;
+}
+
+/*---------------------------------Gallery-------------------------*/
+
+.gallery-body{
+    height: 350px;
+    /*border: 1px solid black;*/
+}
+
+.gallery-body2{
+    height: 350px;
+    /*border: 1px solid black;*/
+}
+
+
+.gallery-body-center{
+    height: 350px;
+    animation-name: test1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+.box-1{
+    height: 100px;
+    width: 30%;
+    background-color: orange;
+    margin: 55% 35%;
+    animation-name: test;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    float: left;
+}
+
+.box-1-img{
+    height: 90px;
+    width: 100%;
+    margin-top: 5px;
+}
+
+@keyframes test {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(90deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    75% {
+        transform: rotate(270deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes test1{
+    0% {
+        background-image: url("../images/gall1.jpg");
+        background-size: cover;
+    }
+    20% {
+        background-image: url("../images/gall2.jpg");
+        background-size: cover;
+    }
+    40% {
+        background-image: url("../images/gall3.jpg");
+        background-size: cover;
+    }
+    60% {
+        background-image: url("../images/gall4.jpg");
+        background-size: cover;
+    }
+
+    80% {
+        background-image: url("../images/gall5.jpg");
+        background-size: cover;
+    }
+    100% {
+        background-image: url("../images/gall6.jpg");
+        background-size: cover;
+    }
+}
+
+/*--------------------------contact--------------------------*/
+
+
+.contacto{
+    margin: 0px;
+    width: 100%;
+    background-color: #2098D1;
+    color: white;
+    text-align: center;
+    /*padding: 0px 0px 10px 100px;*/
+}
+.nav-map{
+    height: 350px;
+    width: 90%;
+    margin: 5% 5%;
+}
+
+.contacto-box-a{
+    height: 150px;
+    width: 30%;
+    background-color: orange;
+    float: left;
+    /*margin: 0px 20px 20px 40px;*/
+    margin: 0% 0% 5% 3%;
+}
+
+
+.contacto-box-b{
+    height: 150px;
+    width: 30%;
+    background-color: yellowgreen;
+    float: left;
+    margin: 0% 0% 5% 4%;
+}
+
+
+.contacto-box-c{
+    height: 150px;
+    width: 30%;
+    background-color: orange;
+    float: left;
+    margin: 0% 0% 5% 3%;
+}
+
+.form-control{
+    width: 80%;
+    margin: 2% 0%;
+}
+
+.form-control2{
+    width: 93%;
+    margin: 2% 0%;
+}
+
+.btn{
+    width: 40%;
+    height: 40px;
+    margin-bottom: 2%;
+    color: white;
+    font-size: 20px;
+}
+
+.btn:hover{
+    background-color: purple;
+}
+
+.box-img{
+    height: 75px;
+    width: 75px;
+}
+
+.email-a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.email-a:hover{
+    color: #2098D1;
+}
+
+
+
+/*--------------------------Responsive----------------*/
+
+@media screen and (max-width: 400px){
+    [class*='col-']{
+        width: 100%;
+        /*background-color: red;*/
+    }
+
+    .header-height{
+        height: 150px;
+    }
+    .header-top{
+        margin: 0px;
+        color: white;
+        padding: 40px 0px 0px 0px;
+        font-size: 16px;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .menu2{
+        display: block;
+        background-color: lightslategrey;
+        height: 50px;
+        width: 100%;
+        position: relative;
+        z-index: 99;
+    }
+
+
+    .menu2-ul{
+        margin: 0px;
+        padding: 0px;
+        list-style-type: none;
+    }
+
+    .menu2-li-a{
+        /*text-align: center;*/
+        text-decoration: none;
+        display: block;
+        height: 50px;
+        color: white;
+        padding-top: 15px;
+        padding-left: 15px;
+    }
+
+
+    .menu3-ul{
+        margin: 0px;
+        padding: 0px;
+        list-style-type: none;
+        position: relative;
+    }
+
+    .menu3-li{
+        text-align: center;
+        color: white;
+    }
+
+    .menu3-li-a{
+        text-decoration: none;
+        display: none;
+        height: 50px;
+        color: white;
+        padding-top: 15px;
+        background-color: lightslategrey;
+        border: 1px solid white;
+    }
+
+    .menu3-li:hover{
+        box-shadow: 0px 0px 5px 3px;
+    }
+
+    .menu2-li:hover .menu3-li-a{
+        display: block;
+    }
+
+    .para-1{
+        margin: 0px;
+        color: white;
+        float: left;
+        font-size: 16px;
+        text-align: justify;
+    }
+
+    .dev-icon{
+        height: 100px;
+        width: 80px;
+        float: left;
+        margin: 20px 10px 0px 0px;
+    }
+
+    .content-mv-box{
+        margin: 8% 8% 4% 8%;
+        width: 84%;
+        height: 350px;
+        /*border: 1px solid;*/
+        float: left;
+        background-color: cadetblue;
+        box-shadow: 5px 5px 5px 0px #291444;
+        transition: 2s;
+    }
+
+    .content-mv-box2{
+
+        width: 84%;
+        margin: 15% 8% 15% 8%;
+        box-shadow: 5px 5px 5px 0px #291444;
+        background-color: cadetblue;
+        float: left;
+        transition: 2s;
+    }
+
+    .big-foot-img{
+        height: 190px;
+        width: 200px;
+        margin: 5px 0px 5px 30px;
+    }
+    /*--------------about-------------*/
+    .about-div-2{
+        margin: 0px 0px 20px 20px;
+        width: 90%;
+        float: left;
+        /*border: 1px solid;*/
+    }
+
+    .about-div-1{
+        /*margin: 50px 0px 50px 150px;*/
+        margin: 5% 5% 5% 3%;
+        float: left;
+        height: 220px;
+        width: 92%;
+        /*border: 1px solid;*/
+    }
+    .about-div-1-img{
+        height: 220px;
+        width: 100%;
+        border-radius: 50%;
+        float: left;
+    }
+    .about-li{
+        color: white;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .about-li-a{
+        text-decoration: none;
+        display: none;
+        height: 70px;
+        color: white;
+        padding-top: 15px;
+        background-color: lightslategrey;
+        border: 1px solid white;
+    }
+    /*-----------port----------------*/
+    .portfolio-top-img{
+        height: 100px;
+        width: 90px;
+        margin-left: 100px;
+    }
+
+    .port-table{
+        display: none;
+    }
+    .port-test-3{
+        display: block;
+        color: black;
+        height: 100px;
+        width:100%;
+    }
+    /*--------------contact----------*/
+    .contacto-box-a{
+        height: 150px;
+        background-color: orange;
+        float: left;
+        width: 90%;
+        margin: 0% 5% 5% 5%;
+    }
+
+
+    .contacto-box-b{
+        height: 150px;
+        background-color: yellowgreen;
+        float: left;
+        width: 90%;
+        margin: 0% 5% 5% 5%;
+
+    }
+
+
+    .contacto-box-c{
+        height: 150px;
+        background-color: orange;
+        float: left;
+        width: 90%;
+        margin: 0% 5% 5% 5%;
+    }
+
+    .form-control2{
+        width: 80%;
+        margin: 2% 0%;
+    }
+    /*----------gallery-----------*/
+
+    .box-1{
+        height: 120px;
+        width: 40%;
+        background-color: orange;
+        margin: 40% 30%;
+        animation-name: test;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        float: left;
+        /*border: 1px solid white;*/
+    }
+
+    .box-1-img{
+        height: 110px;
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    /*-----------SCU-life------------*/
+    .about-div-3-img{
+        width: 90%;
+        margin-left: 25px;
+    }
+}
+
+
+@media screen and (min-width: 401px) and (max-width: 800px){
+    .col-n1{ width: 8.33%;}
+    .col-n2{ width: 16.66%}
+    .col-n3{ width: 25%;}
+    .col-n4{ width: 33.33%}
+    .col-n5{ width: 41.66%}
+    .col-n6{ width: 50%;}
+    .col-n7{ width: 58.33%}
+    .col-n8{ width: 66.66%}
+    .col-n9{ width: 75%}
+    .col-n10{ width: 83.33%}
+    .col-n11{ width: 91.66%}
+    .col-n12{ width: 100%}
+    /*-------------------gall------------------*/
+    .gall-test{
+        position: absolute;
+        right: 0px;
+        top:250px;
+    }
+
+    .box-1{
+        height: 120px;
+        width: 40%;
+        background-color: orange;
+        margin: 35% 30%;
+        animation-name: test;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        float: left;
+        /*border: 1px solid white;*/
+    }
+
+    .box-1-img{
+        height: 110px;
+        width: 100%;
+        margin-top: 5px;
+    }
+    /*----------------Index-401px--------------*/
+
+    .menu2{
+        display: none;
+    }
+
+    .header-height{
+        height: 200px;
+    }
+    .header-top{
+        margin: 0px;
+        color: white;
+        padding: 40px 0px 0px 0px;
+        font-size: 16px;
+    }
+
+    .para-1{
+        margin: 0px;
+        color: white;
+        float: left;
+        font-size: 18px;
+        text-align: justify;
+    }
+
+    .dev-icon{
+        height: 100px;
+        width: 80px;
+        float: left;
+        margin: 20px 10px 0px 0px;
+    }
+
+
+    .content-mv-box{
+        margin: 8% 8% 4% 8%;
+        width: 84%;
+        height: 300px;
+        /*border: 1px solid;*/
+        float: left;
+        background-color: cadetblue;
+        box-shadow: 5px 5px 5px 0px #291444;
+        transition: 2s;
+    }
+
+    .content-mv-box2{
+        width: 84%;
+        margin: 15% 8% 15% 8%;
+        box-shadow: 5px 5px 5px 0px #291444;
+        background-color: cadetblue;
+        float: left;
+        transition: 2s;
+    }
+
+
+    /*-----------------------About---------------------*/
+
+    .about-div-1{
+        /*margin: 50px 0px 50px 150px;*/
+        margin: 5% 5% 5% 3%;
+        float: left;
+        height: 280px;
+        width: 40%;
+        /*border: 1px solid;*/
+    }
+
+    .about-div-1-img{
+        height: 300px;
+        width: 100%;
+        border-radius: 50%;
+        float: left;
+    }
+
+    .about-div-2{
+        width: 50%;
+        margin: 15% 0% 5% 0%;
+        float: left;
+        /*border: 1px solid;*/
+    }
+
+    .about-div-3-img{
+        width: 90%;
+        margin-left: 25px;
+    }
+    /*------------------port---------------------*/
+    .portfolio-top-img{
+        height: 180px;
+        width: 180px;
+        margin-left: -10px;
+        margin-top: 10px;
+    }
+
+    .port-table{
+        width: 20%;
+    }
+
+
+    .port-test-3{
+        display: none;
+    }
+    /*------------------------contact-------------------*/
+    .contacto-box-a{
+        height: 150px;
+        width: 80%;
+        background-color: orange;
+        float: left;
+        /*margin: 0px 20px 20px 40px;*/
+        margin: 0% 10% 10% 10%;
+    }
+
+
+    .contacto-box-b{
+        height: 150px;
+        width: 80%;
+        background-color: yellowgreen;
+        float: left;
+        margin: 0% 10% 10% 10%;
+    }
+
+
+    .contacto-box-c{
+        height: 150px;
+        width: 80%;
+        background-color: orange;
+        float: left;
+        margin: 0% 10% 10% 10%;
+    }
+}
+@media screen and (min-width: 801px) and (max-width: 1420px){
+    .col-1{width: 8.33%}
+    .col-2{width: 16.66%}
+    .col-3{width: 25%}
+    .col-4{width: 33.33%}
+    .col-5{width: 41.66%}
+    .col-6{width: 50%}
+    .col-7{width: 58.33%}
+    .col-8{width: 66.66%}
+    .col-9{width: 75%}
+    .col-10{width: 83.33%}
+    .col-11{width: 91.66%}
+    .col-12{width: 100%}
+
+
+    .port-test-3{
+        display: none;
+    }
+
+    .port-table{
+        width: 80%;
+    }
+
+
+    /*---------------------Gall-----------------*/
+    .box-1{
+        height: 120px;
+        width: 40%;
+        background-color: orange;
+        margin: 40% 30%;
+        animation-name: test;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        float: left;
+        /*border: 1px solid white;*/
+    }
+
+    .box-1-img{
+        height: 110px;
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    /*------------------SCU-life-------------*/
+    .about-div-3-img{
+        width: 90%;
+        margin-left: 25px;
+    }
+
+    /*--------------------------------------*/
+    .contacto-box-a{
+        height: 150px;
+        width: 30%;
+        background-color: orange;
+        float: left;
+        /*margin: 0px 20px 20px 40px;*/
+        margin: 0% 0% 5% 3%;
+    }
+
+
+    .contacto-box-b{
+        height: 150px;
+        width: 30%;
+        background-color: yellowgreen;
+        float: left;
+        margin: 0% 0% 5% 4%;
+    }
+
+
+    .contacto-box-c{
+        height: 150px;
+        width: 30%;
+        background-color: orange;
+        float: left;
+        margin: 0% 0% 5% 3%;
+    }
+}
